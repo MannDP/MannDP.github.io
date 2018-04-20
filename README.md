@@ -1,4 +1,4 @@
 # CSSWebsite
 Personal Portfolio HTML, CSS
 
-Expanding at a later time to utilize AngularJS
+Phase (II): integrate Javascript animation/user interaction. 
