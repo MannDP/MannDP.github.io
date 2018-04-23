@@ -1,6 +1,11 @@
-1) Add GitHub Link for repositories 
+1) Add GitHub Link for repositories [DONE]
 2) Look into transitions (javascript/bootrap) to go nicely between the sections 
 3) Add the Tetris game, pong game into the website 
 4) Add the cool Javascript background. 
 --> https://vincentgarreau.com/particles.js/#default
 --> https://www.hongkiat.com/blog/svg-animations/
+5) Look into Amplifier (JS animation)
+6) Under projects, style the text descriptions to be code blocks 
+7) Image grid —> create popup modal implementation 
+8) Add GitHub logos on descriptions 
+9) Waterloo education (and achievements) section on website 
