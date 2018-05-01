@@ -1,5 +1,20 @@
 <!DOCTYPE html>
 <html>
+
+<!--
+<head>
+  <link rel="stylesheet" href="JSScripts/particleAnimation/css/style.css">  
+</head>
+
+
+<body>
+  <div id="particle-canvas"></div>
+</body>
+
+  <script src='https://rawgit.com/JulianLaval/canvas-particle-network/master/particle-network.min.js'></script>
+  <script  src="JSScripts/particleAnimation/js/index.js"></script>
+-->
+
 <title>Mann Patel</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,7 +36,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <!-- Icon Bar (Sidebar - hidden on small screens) -->
   <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
     <!-- Avatar image in top left corner -->
-    <img src="/w3images/avatar_smoke.jpg" style="width:100%">
+    <img src="images/MeBW.png" style="width:100%" class="w3-grayscale w3-opacity w3-hover-opacity">
     <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
       <i class="fa fa-home w3-xxlarge"></i>
       <p>HOME</p>
@@ -56,90 +71,52 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
       <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Mann Patel.</h1>
       <p>Electrical Engineering Student and Software Developer.</p>
-      <img src="/w3images/man_smoke.jpg" alt="boy" class="w3-image" width="992" height="1108">
+      <!-- <img src="/w3images/man_smoke.jpg" alt="boy" class="w3-image" width="992" height="1108"> -->
     </header>
 
     <!-- About Section -->
     <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
       <h2 class="w3-text-light-grey">Profile</h2>
       <hr style="width:200px" class="w3-opacity">
-      <p>Hi! This is my website, and a place (I hope) you've come to learn a little more about me. I'm currently an undergraduate student enrolled in Electrical Engineering at the University of Waterloo, and an aspiring software developer. I'm interested in everything CS: Front-End, Back-End, Full-Stack, Machine Learning, AI. I love learning new things, and finding innovative solutions to problems. I'm a basketball fan, a self-described perfectionist (who learns from his mistakes), and enjoy meeting new people and working in a team capacity. I've been said to be snarky with a sarcastic sense of humor, and have an unrelenting work ethic. I'd love to meet and work with you.
+      <p >Hi! This is my website, and a place (I hope) you've come to learn a little more about me. I'm currently an undergraduate student enrolled in Electrical Engineering at the University of Waterloo, and an aspiring software developer. I'm interested in everything CS: Front-End, Back-End, Full-Stack, Machine Learning, AI. I love learning new things, and finding innovative solutions to problems. I'm a basketball fan, a self-described perfectionist (who learns from his mistakes), and enjoy meeting new people and working in a team capacity. I've been said to be snarky with a sarcastic sense of humor, and have an unrelenting work ethic. I'd love to meet and work with you.
       </p>
+
+      <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+        <p class="w3-wide">My favourite quote: "A good programmer is someone who always looks both ways before crossing a one-way street."      ~ Doug Linder</p>
+      </div>
+
+
       <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
 
-      <!-- Grid for pricing tables -->
-      <div class="w3-row-padding" style="margin:0 -16px">
-        <div class="w3-half w3-margin-bottom">
-          <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-            <li class="w3-dark-grey w3-xlarge w3-padding-32">Programming Languages</li>
-            <li class="w3-padding-16">C++</li>
-            <li class="w3-padding-16">Java</li>
-            <li class="w3-padding-16">Javascript</li>
-            <li class="w3-padding-16">HTML (Bootstrap)</li>
-            <li class="w3-padding-16">Selenium WebDriver, Maven, JUnit</li>
-          </ul>
-        </div>
+     <!-- Grid for pricing tables -->
+     <div class="w3-row-padding" style="margin:0 -16px">
+       <div class="w3-half w3-margin-bottom">
+         <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+           <li class="w3-dark-grey w3-xlarge w3-padding-32">Programming Languages</li>
+           <li class="w3-padding-16">C++</li>
+           <li class="w3-padding-16">Java</li>
+           <li class="w3-padding-16">Javascript</li>
+           <li class="w3-padding-16">HTML (Bootstrap)</li>
+           <li class="w3-padding-16">Selenium WebDriver, Maven, JUnit</li>
+         </ul>
+       </div>
 
         <div class="w3-half">
-          <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-            <li class="w3-dark-grey w3-xlarge w3-padding-32">General Software</li>
-            <li class="w3-padding-16">Atlaissan (JIRA, Confluence, TestRail)</li>
-            <li class="w3-padding-16">Unity</li>
-            <li class="w3-padding-16">AutoCAD</li>
-            <li class="w3-padding-16">Adobe After Effects</li>
-            <li class="w3-padding-16">Adobe Photoshop</li>
-          </ul>
-        </div>
+         <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+           <li class="w3-dark-grey w3-xlarge w3-padding-32">General Software</li>
+           <li class="w3-padding-16">Atlaissan (JIRA, Confluence, TestRail)</li>
+           <li class="w3-padding-16">Unity</li>
+           <li class="w3-padding-16">AutoCAD</li>
+           <li class="w3-padding-16">Adobe After Effects</li>
+           <li class="w3-padding-16">Adobe Photoshop</li>
+         </ul>
+       </div>
+    </div>
 
       
-      <!-- End Grid/Pricing tables -->
+    <!-- End Grid/Pricing tables -->
 
-
-      <!--
-
-      //COMMENTS: sliders to show the skill proficiency levels 
-
-      <p class="w3-wide">C++, Java, Javascript</p>
-      <div class="w3-white">
-        <div class="w3-dark-grey" style="height:28px;width:100%"></div>
-      </div>
-      <p class="w3-wide">Selenium, Maven, JUnit Postman, HTML, CSS</p>
-      <div class="w3-white">
-        <div class="w3-dark-grey" style="height:28px;width:95%"></div>
-      </div>
-      <p class="w3-wide">Photoshop, After Effects</p>
-      <div class="w3-white">
-        <div class="w3-dark-grey" style="height:28px;width:85%"></div>
-      </div><br>
-      
-      <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
-        <p class="w3-wide">"A good programmer is someone who always looks both ways before crossing a one-way street."</p>
-
-      -->
-
-        <!--
-        
-        //COMMENTS: the white banner (with the different) organized with the different sub-headings 
-
-        <div class="w3-quarter w3-section">
-          <span class="w3-xlarge">11+</span><br>
-          Partners
-        </div>
-        <div class="w3-quarter w3-section">
-          <span class="w3-xlarge">55+</span><br>
-          Projects Done
-        </div>
-        <div class="w3-quarter w3-section">
-          <span class="w3-xlarge">89+</span><br>
-          Happy Clients
-        </div>
-        <div class="w3-quarter w3-section">
-          <span class="w3-xlarge">150+</span><br>
-          Meetings
-        </div>
-        
-      -->
-      </div>
+ 	<!-- Work Experience Section -->
 
     <div>  
 
@@ -170,44 +147,73 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
         <i class="fa fa-download"></i> Download Resume
       </button>
     </a>
-
-
-    <!-- Testimonials 
-
-    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
-    <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
-    <p>Jane Doe saved us from a web disaster.</p><br>
-    
-    <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
-    <p>No one is better than Jane Doe.</p>
-  
-
-  End About Section
-  -->
-  </div>
+  <!-- End work experience section -->
   
   <!-- Portfolio Section -->
   <div class="w3-padding-64 w3-content" id="photos">
     <h2 class="w3-text-light-grey">My Portfolio</h2>
     <hr style="width:200px" class="w3-opacity">
-    <p>Click on an image to find out more.</p>
 
-    <!-- Grid for photos -->
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half">
-        <img src="images/ArcadeClassic.jpg" style="width:100%" class="w3-hover-opacity">
-        <img src="images/CPPJavaSublime.jpg" style="width:100%" class="w3-hover-opacity">
-        <img src="images/EmbeddedSystem1.jpg" style="width:100%" class="w3-hover-opacity">
+    <a target="_blank" href="https://github.com/MannDP">
+        <i class="fa fa-github w3-hover-opacity w3-xxlarge"></i>
+      </a>
+      <a target="_blank" href="https://patelmann.tumblr.com/">
+        <i class="fa fa-tumblr-square w3-hover-opacity w3-xxlarge"></i>
+      </a>
+
+    <p>A bit of work I do in my spare time. To see a full list, check out my Tumblr and Github.</p>
+
+      <!-- About Card -->
+      <div class="w3-card w3-margin w3-margin-top">
+      <img src="images/ArcadeClassic.jpg" style="width:100%" class="w3-opacity w3-hover-opacity-off">
+        <div class="w3-container w3-white">
+          <h4><b>Classic Games in JS</b></h4>
+
+          <a target="_blank" href="https://github.com/MannDP/JSGames">
+            <i class="fa fa-github w3-hover-opacity w3-xlarge"></i>
+          </a>   
+
+          <p>Re-creating classic video games using Javascript. Involves work with JS syntax, canvas, and matrix data types. </p>
       </div>
 
-      <div class="w3-half">
-        <img src="images/HackerRank.jpg" style="width:100%" class="w3-hover-opacity">
-        <img src="images/Automation.png" style="width:100%" class="w3-hover-opacity">
+      <img src="images/HackerRank.jpg" style="width:100%" class="w3-opacity w3-hover-opacity-off">
+        <div class="w3-container w3-white">
+          <h4><b>HackerRank Problems</b></h4>
+
+          <a target="_blank" href="https://github.com/MannDP/HackerRank-Solutions">
+            <i class="fa fa-github w3-hover-opacity w3-xlarge"></i>
+          </a>
+
+          <p>Competing in, and completing programming challenges posted on the HackerRank website. Solutions developed primarily in C++, Java.</p>
       </div>
-    <!-- End photo grid -->
-    </div>
+
+      <img src="images/Automation.png" style="width:100%" class="w3-opacity w3-hover-opacity-off">
+        <div class="w3-container w3-white">
+          <h4><b>Google Automation Suite</b></h4>
+
+          <a target="_blank" href="https://github.com/MannDP/DesktopTestSuite">
+            <i class="fa fa-github w3-hover-opacity w3-xlarge"></i>
+          </a>
+
+          <p>Creating an automation suite using Java-based Selenium WebDriver and the Page Object Model Framework.</p>
+      </div>
+
+      <img src="images/CPPJavaSublime.jpg" style="width:100%" class="w3-opacity w3-hover-opacity-off">
+        <div class="w3-container w3-white">
+          <h4><b>C++ and Java</b></h4>
+
+          <a target="_blank" href="https://github.com/MannDP/CPP-Fundamentals">
+            <i class="fa fa-github w3-hover-opacity w3-xlarge"></i>
+          </a>
+
+          <p>Exploring common features across the major OOP programming languages. Concepts covered include: Discrete Time Simulation, Physics, Math Solving, Algorithm Development, File Parsing, Simple and Weighted Statistics, Pointers, OOP.</p>
+      </div>
+
+      <img src="images/EmbeddedSystem1.jpg" style="width:100%" class="w3-opacity w3-hover-opacity-off">
+        <div class="w3-container w3-white">
+          <h4><b>Embedded System Development: Simon Says Game</b></h4>
+          <p>Cross-platform development to create a Simon Says game for the Onion OMEGA board. Setup using CMake Bash, and Putty to link to user commands. Functionality included: log file generation, high score count, and two primary game modes (random, and pattern based).  </p>
+      </div>
   <!-- End Portfolio Section -->
   </div>
 
@@ -239,13 +245,16 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   </div>
   
     <!-- Footer -->
-  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-    <i class="fa fa-github-square w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge w3-center">
+    <a href="https://github.com/MannDP">
+      <i class="fa fa-github-square w3-hover-opacity w3-jumbo"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/mann-patel-35097b149/">
+      <i class="fa fa-linkedin-square w3-hover-opacity w3-jumbo"></i>
+    </a>
+    <a href="https://www.tumblr.com/blog/patelmann">
+      <i class="fa fa-tumblr-square w3-hover-opacity w3-jumbo"></i>
+    </a>
   <!-- End footer -->
   </footer>
 
